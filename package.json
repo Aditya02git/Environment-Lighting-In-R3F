@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "empty-template-project",
+  "version": "1.2.0",
+  "description": "Repo Template: three, vite, eslint, prettier.",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "browserslist": [
+    "Chrome >= 124",
+    "ChromeAndroid >= 124",
+    "Edge >= 124",
+    "Firefox >= 124",
+    "FirefoxAndroid >= 124",
+    "Safari >= 17.4",
+    "iOS >= 17.4",
+    "not dead"
+  ],
+  "prettier": "@epreston/prettier-config",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "start": "vite --open",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.[tj]s\""
+  },
+  "devDependencies": {
+    "@epreston/eslint-config": "^2.1.1",
+    "@epreston/prettier-config": "^2.1.0",
+    "@epreston/tsconfig": "^1.2.1",
+    "@tweakpane/core": "^2.0.5",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2",
+    "vite": "^5.4.20",
+    "vite-plugin-glsl": "^1.5.1"
+  },
+  "dependencies": {
+    "@tweakpane/plugin-essentials": "^0.2.1",
+    "three": "0.180.0",
+    "tweakpane": "^4.0.5"
+  }
+}

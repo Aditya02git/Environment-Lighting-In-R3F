@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "@epreston/tsconfig",
+  "compilerOptions": {
+    /* Emit */
+    "outDir": "temp"
+  },
+  "include": ["global.d.ts", "src"]
+}
